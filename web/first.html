@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/Site.css">
+    </head>
+    <body>
+        <div>
+            <img src="res/register.png" alt="Register Icon" style="float:left"/>
+            <form method="POST" action="callss">
+                <table align="center">
+                    <tr><th colspan>Registration Page</th></tr>
+                    <tr><td>Name</td><td><input type="text" name="name" placeholder="name"/></td></tr>
+                    <tr><td>Password</td><td><input type="password" name="password" placeholder="password"/></td></tr>
+                    <tr><td>Confirm Password</td><td><input type="password" name="cpassword" placeholder="retype password"/></td></tr>
+                    <tr><td>Address</td><td><textarea rows="3" name="address" placeholder="your address" ></textarea></td></tr>
+                    <tr><td>State</td>
+                        <td>
+                            <select name="state">
+                                <option value="-1">--Select Option--</option>
+                                <option value="wb">West Bengal</option>
+                                <option value="bh">Bihar</option>
+                                <option value="jh">Jharkhand</option>
+                                <option value="mp">Madhya Pradesh</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td>Academics</td>
+                        <td>
+                    <tr><td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="M"> Male
+                            <input type="radio" name="gender" value="F"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>UPLOAD IMAGE</td>
+                        <td><input type="file" name="profile_picture"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Register" class="button blue"/></td>
+                        <td align="center"><input type="reset" value="Clear" class="button red"/></td>
+                    </tr>
+                </table>
+            </form>                         <br><input type="checkbox" name="academics" value="10th"/> 10th
+            <br><input type="checkbox" name="academics" value="12th"/> 12th
+            <br><input type="checkbox" name="academics" value="B.Tech"/> B.Tech
+            <br><input type="checkbox" name="academics" value="M.Tech"/> M.Tech
+        </td>
+    </tr>
+    <tr><td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="M"> Male
+            <input type="radio" name="gender" value="F"> Female
+        </td>
+    </tr>
+    <tr>
+        <td>UPLOAD IMAGE</td>
+        <td><input type="file" name="profile_picture"/></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Register" class="button blue"/></td>
+        <td align="center"><input type="reset" value="Clear" class="button red"/></td>
+    </tr>
+</table>
+</form>
+</div>
+</body>
+</html>
