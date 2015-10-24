@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/RatulGhosh/J2EE_Web_App/master/web/res/Java.png" width="40" /> J2EE Web App
+# <img src="https://raw.githubusercontent.com/RatulGhosh/J2EE_Web_App/master/web/res/Java.png" width="80" /> J2EE Web App
 A web application demonstrating a full login/register system , session , cookies and admin and user modules using MySQL as database , Hibernate ORM and J2EE(Servlets and JSP)
 # <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" width="80" />
 
